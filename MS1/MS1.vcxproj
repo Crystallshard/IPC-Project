@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{67CF8DB5-82A1-4037-9F11-9DFE9CA897C4}</ProjectGuid>
+    <ProjectGuid>{8DF34F45-A66A-43FF-8131-E83D7E703435}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MS1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -142,6 +142,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="144_ms1.c" />
+    <ClCompile Include="144_ms1_tester.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
