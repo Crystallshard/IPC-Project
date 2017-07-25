@@ -18,5 +18,8 @@
     <ClCompile Include="144_ms4_tester.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="144_ms4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
