@@ -59,8 +59,8 @@ Please enter the contact's middle initial(s): Dino
 Please enter the contact's last name: Flintstone
 Please enter the contact's street number: 100
 Please enter the contact's street name: Bedrock
-Do you want to enter an appartment number? (y or n): y
-Please enter the contact's appartment number: 14
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 14
 Please enter the contact's postal code: Z8Z 7R7
 Please enter the contact's city: Markham
 Do you want to enter a cell phone number? (y or n): Y
