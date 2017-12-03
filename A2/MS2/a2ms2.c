@@ -27,7 +27,7 @@ void printSectionHeader(const char*);
 int main(void)
 {
     int tstInteger;
-    struct Contact contact = { {0} };
+    struct Contact contact = { { {0} } };
 
     //--------------------------------------------------------
     printSectionHeader("Yes()");
@@ -83,7 +83,6 @@ void printSectionHeader(const char* testName)
 }
 
 /*
-EXPECTED OUTPUT:
 ------------------------------------------
 Testing: Yes()
 ------------------------------------------
@@ -108,6 +107,7 @@ Testing: getInt()
 ------------------------------------------
 Enter 'ipc', then '144' > ipc
 *** INVALID INTEGER *** <Please enter an integer>: 144
+Integer entered: 144
 
 ------------------------------------------
 Testing: getIntInRange(int,int)
@@ -116,6 +116,7 @@ Enter 'seneca', then '99', then '501', then '250' > seneca
 *** INVALID INTEGER *** <Please enter an integer>: 99
 *** OUT OF RANGE *** <Enter a number between 100 and 500>: 501
 *** OUT OF RANGE *** <Enter a number between 100 and 500>: 250
+Integer entered: 250
 
 ------------------------------------------
 Testing: getContact(struct Contact *)
