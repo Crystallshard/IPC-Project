@@ -48,11 +48,13 @@ int main(void)
     printSectionHeader("getInt()");
     printf("Enter 'ipc', then '144' > ");
     tstInteger = getInt();
+    printf("Integer entered: %d\n", tstInteger);
 
     //--------------------------------------------------------
     printSectionHeader("getIntInRange(int,int)");
     printf("Enter 'seneca', then '99', then '501', then '250' > ");
     tstInteger = getIntInRange(100, 500);
+    printf("Integer entered: %d\n", tstInteger);
 
     //--------------------------------------------------------
     printSectionHeader("getContact(struct Contact *)");
