@@ -54,7 +54,7 @@ help reduce redundant coding for common repetative tasks.
 // +-------------------------------------------------+
 
 // Generic function to get a ten-digit phone number (provided for you)
-void getTenDigitPhone(char[11]);
+void getTenDigitPhone(char[]);
 
 // findContactIndex (provided for you)
 int findContactIndex(const struct Contact[], int, const char[]);

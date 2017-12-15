@@ -61,7 +61,7 @@ Milestone:  3
 // +-------------------------------------------------+
 
 // Generic function to get a ten-digit phone number (ensures 10 chars entered)
-void getTenDigitPhone(char telNum[11])
+void getTenDigitPhone(char telNum[])
 {
     int needInput = 1;
 
